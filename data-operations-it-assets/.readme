@@ -1,0 +1,113 @@
+Phase 1 — Excel Data Cleaning
+Objective
+
+Prepare and clean the raw IT asset dataset to make it consistent, accurate, and ready for indexing into Elasticsearch.
+
+Dataset Details
+
+File Name: it_asset_inventory_enriched.csv
+
+Description: Each record represents an IT asset with fields such as hostname, country, operating_system, lifecycle_status, installation_date, and other operational attributes.
+
+Tasks Performed
+
+Removed duplicate rows based on the hostname field using Data → Remove Duplicates in Excel.
+
+Trimmed extra spaces from text fields using the =TRIM(A2) function or Flash Fill.
+
+Handled missing values by replacing blank cells with "Unknown".
+
+Verified and standardized the date format under operating_system_installation_date to YYYY-MM-DD.
+
+Saved the cleaned dataset as it_asset_inventory_cleaned.csv, ready for ingestion into Elasticsearch.
+
+---------------------------------------------------------------------------------------------
+
+Phase 2 — Indexing Data to Elasticsearch Using Python
+Objective
+
+Load the cleaned IT asset dataset into Elasticsearch using a Python script for efficient indexing and data accessibility.
+
+Steps
+
+Created a new GitHub repository named data-operations-it-assets.
+
+Inside the project folder, developed a Python script named index_data.py.
+
+The script connects to the Elasticsearch Cloud instance using an API key, reads the cleaned CSV file, and performs bulk indexing.
+
+Verified successful connection and ensured that all rows were indexed properly into the index named it-assets.
+---------------------------------------------------------------------------------------------
+
+Phase 3 — Data Transformation & Enrichment in Elasticsearch
+Objective
+
+Enhance and enrich the indexed IT asset data using Elasticsearch queries, scripting, and transformations.
+
+Tasks
+
+Created a new Python script named transform_data.py to perform advanced data enrichment operations.
+
+Reindexed the existing data into a new index for transformation.
+
+Added a derived field:
+
+risk_level = "High" if operating_system_lifecycle_status is EOL or EOS, else "Low".
+
+Calculated system age (in years) based on the installation date.
+
+Deleted records with missing hostnames or "Unknown" providers.
+
+Updated all records with the new computed fields using the _update_by_query API.
+
+---------------------------------------------------------------------------------------------
+Phase 4-Objective 
+Build business insights and visualizations from your final dataset.
+
+visualization_screenshots/assets_by_country.png
+
+Observation:
+This bar chart displays the count of IT assets across the top 5 countries — Brazil, USA, Canada, France, and India, along with a combined category labeled “Other”.
+
+Insight:
+The “Other” category has the highest number of assets (~1500), indicating either multiple smaller regions or unclassified countries grouped together. Each of the top 5 countries maintains a similar number of assets, showing a balanced global asset distribution across key operational zones.
+
+2.country_keyword.png
+
+Observation:
+This stacked bar chart compares the distribution of IT assets across the top 5 countries — Brazil, USA, Canada, France, and India, along with the Other category. Each segment within the bars represents different hosts contributing to the asset count in each region.
+
+Insight:
+The USA, Canada, France, and India have a similar and balanced share of assets dominated by a few key hosts. Brazil shows more host diversity, while the Other category captures the largest number of aggregated assets. This suggests a significant portion of assets are spread outside the top 5 countries, possibly in smaller or unclassified regions.
+
+3.image_purpose_distribution.png
+
+Observation:
+This table shows the top values of image_purpose.keyword. There are 10 records each for Backup and DR (Disaster Recovery), indicating equal distribution of system images between these two purposes.
+
+Insight:
+The balance between Backup and DR images reflects a well-structured data recovery and backup strategy. It shows that the organization maintains equal focus on data protection and business continuity.
+
+4.internet_facing_assets.png
+
+Observation:
+This chart shows the count of systems based on whether they are internet-facing. Out of all assets, 1,694 are internet-facing, while 1,514 are not.
+
+Insight:
+Nearly half of the assets are directly exposed to the internet, indicating a potential security risk. Proper firewall configurations, regular patching, and continuous monitoring are essential to protect these assets from external threats.
+
+5./os_is_virtual.png
+
+Observation:
+The table shows that all recorded systems are virtual machines (os_is_virtual = true). Operating system installations occur at a consistent rate of 10 installations per week during November and December 2024.
+
+Insight:
+This steady pattern indicates regular provisioning or updates of virtual systems, possibly part of an automated infrastructure maintenance cycle. Monitoring this trend helps in capacity planning and ensuring stable virtual environment operations.
+
+6.top_os_providers.png
+
+Observation:
+The pie chart shows that “Other” operating systems dominate with 57.66% of assets, followed by z/OS (11.36%), SUSE Linux (8.9%), Ubuntu 22.04 (7.79%), RHEL (7.4%), and Windows (6.88%).
+
+Insight:
+The environment is highly diverse, with a large portion of unclassified or lesser-known OS types. Standardizing OS versions or consolidating platforms could reduce management complexity and security risks.
