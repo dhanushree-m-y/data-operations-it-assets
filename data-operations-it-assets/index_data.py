@@ -1,59 +1,34 @@
 import pandas as pd
-from elasticsearch import Elasticsearch, helpers
-from dotenv import load_dotenv
-import os
 
-# Load environment variables from .env file
-load_dotenv()
+# ---------------------- Step 1: Load CSV ----------------------
+input_file = "it_asset_inventory_cleaned.csv"
+output_file = "it_asset_inventory_cleaned2.csv" 
 
-CLOUD_URL = os.getenv("CLOUD_URL")
-API_KEY = os.getenv("API_KEY")
+df = pd.read_csv(input_file)
 
-# File and index name
-EXCEL_FILE = "it_asset_inventory_cleaned.csv"
-INDEX_NAME = "it-assets"
+# ---------------------- Step 2: Remove Duplicates ----------------------
+if 'hostname' in df.columns:
+    df = df.drop_duplicates(subset=['hostname'], keep='first')
 
-es = Elasticsearch(
-    CLOUD_URL,
-    api_key=API_KEY
-)
+# ---------------------- Step 3: Trim Extra Spaces ----------------------
+df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
 
+# ---------------------- Step 4: Replace Blanks or NaN with 'unknown' ----------------------
+df = df.fillna("unknown")
 
-if es.ping():
-    print("Connected to Elasticsearch Cloud.")
-else:
-    print("Could not connect. Check your CLOUD_URL or API_KEY.")
-    exit()
+# Replace empty strings ("") or spaces-only cells with "unknown"
+df = df.replace(r'^\s*$', 'unknown', regex=True)
 
+# ---------------------- Step 5: Convert All Text to Lowercase ----------------------
+df = df.applymap(lambda x: x.lower() if isinstance(x, str) else x)
 
-try:
-    df = pd.read_csv(EXCEL_FILE)
-    print(f"Loaded {len(df)} rows from {EXCEL_FILE}")
-except Exception as e:
-    print("Error reading file:", e)
-    exit()
+# ---------------------- Step 6: Standardize Date Format ----------------------
+date_col = "operating_system_installation_date"
+if date_col in df.columns:
+    df[date_col] = pd.to_datetime(df[date_col], errors="coerce", dayfirst=True)
+    df[date_col] = df[date_col].dt.strftime("%Y-%m-%d")
+    df[date_col] = df[date_col].fillna("unknown")
 
-# Convert DataFrame rows to Elasticsearch documents
-actions = [
-    {
-        "_index": INDEX_NAME,
-        "_source": row.to_dict()
-    }
-    for _, row in df.iterrows()
-]
-
-# Bulk upload documents
-try:
-    success, failed = helpers.bulk(es, actions, stats_only=True)
-    print(f"Indexed successfully: {success} documents")
-    if failed > 0:
-        print(f"{failed} document(s) failed to index.")
-except Exception as e:
-    print("Error during indexing:", e)
-
-# Verify document count in Elasticsearch
-try:
-    count = es.count(index=INDEX_NAME)['count']
-    print(f"Total documents in index '{INDEX_NAME}': {count}")
-except Exception as e:
-    print("Could not verify document count:", e)
+# ---------------------- Step 7: Save Cleaned File ----------------------
+df.to_csv(output_file, index=False)
+print(f"Cleaned data saved as '{output_file}'")

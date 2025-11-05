@@ -1,0 +1,329 @@
+hostname,country,operating_system_name,operating_system_provider,operating_system_installation_date,operating_system_lifecycle_status,os_is_virtual,is_internet_facing,image_purpose,os_system_id,performance_score
+host-6930,uk,suse linux,redhat,2016-02-10,planned,True,yes,production,sys-30313,55.48
+host-6337,,ubuntu 22.04,amazon,2021-11-29,eol,True,no,testing,sys-69014,51.78
+host-5326,brazil,centos 7,,2010-12-22,eos,False,no,testing,sys-78027,97.43
+host-2279,usa,,redhat,2010-11-02,eol,True,yes,dr,sys-88988,94.06
+host-8713,india,rhel 8,google,2021-10-23,eol,False,yes,dr,sys-29294,91.04
+host-2800,japan,z/os,canonical,2018-01-24,planned,True,no,dr,sys-32425,60.97
+host-1614,,windows server 2019,canonical,2020-09-10,planned,False,yes,production,sys-77054,64.04
+host-6021,germany,suse linux,microsoft,2010-09-20,active,True,yes,production,sys-50929,86.72
+host-4670,india,suse linux,google,2023-01-13,eos,True,no,backup,sys-96118,91.28
+host-2945,india,,,2012-04-30,eos,False,yes,dev,sys-87105,94.13
+host-5479,usa,rhel 8,suse,2016-07-21,active,False,no,testing,sys-62531,90.48
+host-2499,,z/os,microsoft,2012-09-03,eol,True,yes,dev,sys-68107,75.6
+,,ubuntu 22.04,redhat,2013-08-04,,True,no,testing,sys-64064,68.7
+host-2246,usa,z/os,canonical,2015-10-26,eos,False,no,production,sys-60183,73.82
+host-1721,usa,ubuntu 22.04,google,2021-06-04,eos,False,no,production,sys-79650,69.43
+host-1804,japan,,,2017-06-19,,False,no,dr,sys-95212,58.18
+host-6850,france,,suse,2017-08-08,active,False,no,dr,sys-73851,57.3
+host-9757,india,,amazon,2022-01-18,eol,True,yes,dr,sys-86835,52.35
+host-1077,,z/os,amazon,2015-01-31,eos,True,no,dev,sys-57279,57.74
+host-2623,brazil,,suse,2016-12-03,active,True,no,dr,sys-48768,57.84
+host-9982,france,z/os,ibm,2016-01-26,eol,False,yes,dev,sys-37830,83.12
+host-5866,,centos 7,,2015-11-07,active,False,yes,backup,sys-37255,61.87
+host-1137,usa,ubuntu 22.04,canonical,2023-05-27,eol,False,yes,backup,sys-74194,54.22
+host-6560,japan,suse linux,canonical,2013-10-04,eos,True,no,production,sys-31982,81.17
+host-3218,usa,suse linux,google,2015-10-21,eos,True,yes,backup,sys-19805,80.1
+host-9676,brazil,rhel 8,amazon,2019-04-12,,True,yes,dev,sys-18316,53.03
+host-6963,france,ubuntu 22.04,ibm,2015-07-02,active,True,yes,backup,sys-45601,62.96
+host-5638,uk,windows server 2019,google,2017-04-14,active,True,no,production,sys-11554,52.75
+host-6304,germany,windows server 2019,amazon,2022-02-23,active,True,yes,dev,sys-71378,84.83
+host-1513,,suse linux,redhat,2021-12-05,planned,False,no,testing,sys-97260,54.71
+host-6670,france,aix 7.2,google,2012-11-01,active,True,no,dr,sys-55445,80.24
+host-9818,india,,google,2014-03-03,eol,True,yes,dr,sys-20895,97.22
+host-8260,germany,suse linux,canonical,2015-07-15,planned,False,yes,dev,sys-64645,67.85
+host-7510,france,rhel 8,ibm,2012-01-31,,True,yes,dev,sys-76203,88.16
+host-3352,,,ibm,2012-11-29,planned,False,yes,testing,sys-69717,79.13
+host-8273,canada,windows server 2019,canonical,2011-10-19,active,True,yes,testing,sys-24565,54.31
+host-6715,,ubuntu 22.04,suse,2022-05-21,eol,False,no,production,sys-60845,88.48
+host-9931,germany,rhel 8,,2022-05-29,eos,True,yes,backup,sys-74483,88.54
+host-3563,france,suse linux,,2010-12-08,,True,yes,production,sys-63741,73.64
+host-4819,brazil,ubuntu 22.04,microsoft,2018-09-14,,True,no,dev,sys-10183,65.82
+host-6148,india,aix 7.2,redhat,2012-06-25,,True,yes,dr,sys-37504,80.21
+host-5449,canada,aix 7.2,suse,2017-09-17,active,False,yes,dev,sys-16432,81.69
+host-7352,germany,suse linux,,2019-12-31,,False,no,dr,sys-18990,67.61
+host-3530,japan,,ibm,2013-07-10,active,False,no,dr,sys-32009,55.02
+host-6615,,aix 7.2,microsoft,2019-02-23,eos,True,no,production,sys-87862,99.0
+host-9882,india,,suse,2019-06-29,eos,False,no,production,sys-87470,86.6
+host-3814,,,,2011-05-14,planned,False,yes,testing,sys-50902,75.08
+host-6582,canada,windows server 2019,amazon,2023-02-19,eol,False,no,dev,sys-18586,69.11
+host-8913,brazil,rhel 8,google,2019-04-05,planned,True,yes,dev,sys-23573,78.91
+host-4345,japan,ubuntu 22.04,google,2018-12-25,eol,False,no,testing,sys-30170,55.32
+host-9643,brazil,rhel 8,google,2023-06-14,eol,True,no,dr,sys-62418,63.45
+host-4379,france,centos 7,amazon,2018-02-04,planned,True,no,dr,sys-65230,56.38
+host-7371,germany,ubuntu 22.04,ibm,2020-04-18,eos,True,no,production,sys-85173,96.98
+host-3242,canada,z/os,amazon,2015-07-19,planned,True,yes,production,sys-59427,78.45
+host-2176,brazil,centos 7,canonical,2020-04-23,planned,False,no,dev,sys-12908,51.28
+host-2100,,z/os,suse,2020-11-18,eos,False,yes,dev,sys-62814,51.85
+host-2457,canada,ubuntu 22.04,redhat,2023-05-23,eos,True,no,production,sys-59214,71.5
+host-9926,germany,suse linux,,2015-04-19,planned,False,yes,backup,sys-97424,77.79
+host-8228,france,ubuntu 22.04,ibm,2023-05-28,,True,no,dev,sys-52539,91.96
+host-9358,uk,,,2022-04-19,planned,False,yes,testing,sys-67793,62.44
+host-7076,uk,centos 7,microsoft,2023-09-24,eol,True,no,dev,sys-35296,62.76
+host-2400,brazil,,google,2024-03-08,active,True,no,backup,sys-13228,51.6
+host-6620,,,google,2016-12-30,eol,True,yes,dr,sys-20550,99.31
+host-9403,canada,z/os,suse,2011-05-23,eol,True,no,dr,sys-65074,84.83
+host-2469,india,,suse,2024-09-16,planned,True,yes,dr,sys-32679,94.41
+host-7341,india,suse linux,ibm,2014-06-08,eol,True,yes,testing,sys-92187,84.73
+host-3859,canada,aix 7.2,redhat,2015-09-02,active,True,yes,dev,sys-16027,62.63
+host-9653,usa,aix 7.2,,2014-07-11,,True,no,dr,sys-53069,71.18
+host-5024,japan,windows server 2019,,2019-04-04,active,False,yes,production,sys-17581,74.63
+host-2700,,ubuntu 22.04,,2012-11-24,eol,True,no,dr,sys-46264,50.45
+host-9470,uk,centos 7,,2023-06-20,active,False,yes,dev,sys-71284,60.17
+host-5436,france,z/os,google,2017-12-12,eol,False,no,dr,sys-12629,93.39
+host-9266,canada,aix 7.2,suse,2010-01-11,,False,yes,backup,sys-40142,78.34
+host-3225,japan,windows server 2019,redhat,2024-04-28,active,False,yes,dev,sys-13215,59.38
+host-2878,india,windows server 2019,microsoft,2019-09-15,eol,False,no,dev,sys-87152,93.81
+host-7058,,rhel 8,,2015-06-10,,False,yes,dr,sys-17767,79.45
+host-2606,usa,z/os,redhat,2018-11-19,,True,no,dev,sys-58127,56.55
+host-2498,japan,windows server 2019,amazon,2023-08-11,eol,True,yes,testing,sys-59157,75.71
+host-5168,germany,rhel 8,suse,2022-10-03,eos,True,no,dev,sys-51687,93.89
+host-4028,japan,aix 7.2,google,2016-06-22,planned,True,yes,backup,sys-37480,66.24
+host-1897,brazil,windows server 2019,,2017-10-23,planned,True,yes,dr,sys-92755,96.52
+host-5186,canada,,suse,2022-07-04,planned,False,yes,production,sys-63190,65.1
+host-5797,uk,rhel 8,suse,2015-09-13,,False,yes,production,sys-84252,56.65
+host-4112,germany,z/os,,2011-11-28,active,False,yes,production,sys-25283,69.98
+host-9471,japan,suse linux,ibm,2017-07-03,planned,True,no,production,sys-65518,95.95
+host-4199,japan,suse linux,,2011-06-05,,True,no,dr,sys-40164,90.08
+host-1579,uk,centos 7,,2023-01-03,eol,True,yes,production,sys-87779,60.07
+host-5073,uk,rhel 8,canonical,2020-08-20,eol,True,no,dr,sys-56974,51.54
+host-3978,brazil,centos 7,ibm,2014-07-26,planned,False,no,dev,sys-40146,60.15
+host-9572,uk,centos 7,redhat,2020-08-30,planned,True,no,backup,sys-77377,68.57
+host-4663,france,aix 7.2,,2024-01-19,planned,True,yes,backup,sys-77669,55.35
+host-5691,india,rhel 8,canonical,2015-11-26,active,False,yes,backup,sys-84801,54.19
+host-3497,usa,suse linux,,2014-01-12,,True,no,testing,sys-90128,85.24
+host-4287,brazil,,,2021-05-22,eos,False,no,backup,sys-30103,59.17
+host-7378,canada,,google,2022-06-22,eos,False,yes,dr,sys-69537,98.27
+host-3076,,z/os,google,2016-05-04,eol,True,yes,testing,sys-73301,77.0
+host-7048,brazil,suse linux,,2022-03-30,,True,no,production,sys-34639,52.67
+host-1723,,,canonical,2015-07-08,eol,False,yes,dr,sys-80552,99.08
+host-4567,india,rhel 8,microsoft,2018-09-12,planned,False,yes,testing,sys-35263,96.62
+host-2605,brazil,rhel 8,amazon,2017-11-20,planned,False,no,production,sys-11975,57.9
+host-2860,canada,suse linux,redhat,2016-07-15,,False,yes,dev,sys-11101,89.95
+host-3428,germany,rhel 8,redhat,2016-01-24,,True,no,dev,sys-70111,61.27
+host-7893,india,,redhat,2010-11-14,eos,False,yes,dev,sys-90874,54.54
+host-7474,india,,redhat,2023-12-17,active,True,yes,dr,sys-81244,68.65
+host-3405,japan,windows server 2019,google,2012-12-27,active,True,yes,testing,sys-30053,85.58
+host-6652,india,centos 7,suse,2013-02-09,active,False,no,dr,sys-97943,53.37
+host-7686,france,rhel 8,,2022-04-09,,True,no,testing,sys-39106,55.44
+host-1918,,,suse,2019-01-20,eol,False,no,dr,sys-56249,86.92
+host-9763,,windows server 2019,redhat,2015-01-28,active,False,yes,dr,sys-93574,79.5
+host-2494,uk,suse linux,google,2021-12-08,eol,False,no,backup,sys-63882,65.4
+host-2590,germany,,google,2021-12-13,,False,yes,testing,sys-33197,70.67
+host-7828,uk,,google,2023-11-18,,False,yes,testing,sys-78582,98.62
+host-8421,brazil,rhel 8,,2019-11-26,planned,False,no,backup,sys-56630,95.59
+host-3231,india,centos 7,ibm,2024-12-03,eos,True,no,dr,sys-92089,78.97
+host-7997,,,,2015-03-07,,False,no,testing,sys-90268,80.5
+host-4265,,suse linux,redhat,2020-11-27,active,True,yes,dev,sys-50628,52.28
+host-2190,uk,ubuntu 22.04,microsoft,2020-09-07,eos,False,no,production,sys-38631,73.32
+host-9415,india,windows server 2019,ibm,2018-02-05,eol,True,yes,dr,sys-37523,65.79
+host-1141,uk,rhel 8,amazon,2021-05-20,planned,True,yes,dev,sys-65271,60.09
+host-4782,uk,,redhat,2019-09-15,planned,True,no,backup,sys-22020,62.69
+host-3347,usa,ubuntu 22.04,redhat,2010-11-08,eos,False,no,dr,sys-15089,68.12
+host-7915,usa,,canonical,2020-09-24,active,True,yes,dev,sys-31356,70.1
+host-1812,france,,,2015-03-07,planned,True,yes,backup,sys-35521,53.14
+host-9742,india,suse linux,canonical,2013-07-20,,True,yes,production,sys-99899,64.47
+host-3098,japan,ubuntu 22.04,ibm,2020-10-09,,False,yes,testing,sys-95669,59.41
+host-3226,brazil,ubuntu 22.04,,2011-09-08,active,False,yes,dr,sys-28242,64.9
+host-3706,france,suse linux,redhat,2010-09-22,planned,True,yes,testing,sys-53275,82.3
+host-8384,,rhel 8,suse,2019-11-03,eol,True,no,dev,sys-66995,93.28
+host-7888,india,,amazon,2017-10-17,,False,yes,dev,sys-96625,97.52
+host-5592,france,z/os,suse,2012-12-17,,True,yes,dr,sys-85501,77.33
+host-2141,japan,ubuntu 22.04,microsoft,2015-06-02,active,False,yes,testing,sys-60925,79.26
+host-6045,france,ubuntu 22.04,canonical,2023-09-28,,True,no,dr,sys-51537,60.49
+host-8752,,rhel 8,,2014-08-26,eos,True,yes,backup,sys-84679,87.9
+host-9919,germany,suse linux,,2013-07-20,eos,False,yes,dr,sys-51875,70.62
+host-5327,france,,google,2013-10-14,,False,yes,dev,sys-93078,98.28
+host-6626,usa,windows server 2019,microsoft,2020-09-02,eos,False,no,dev,sys-76857,55.69
+host-5383,,z/os,canonical,2023-01-27,eol,False,yes,testing,sys-62809,81.21
+host-1309,japan,aix 7.2,ibm,2012-08-14,eol,False,no,dev,sys-69659,62.31
+host-3461,usa,,suse,2018-02-21,eos,False,yes,backup,sys-12197,94.53
+host-5742,usa,aix 7.2,redhat,2014-10-02,eos,False,no,dev,sys-93597,64.98
+host-5125,brazil,ubuntu 22.04,redhat,2011-11-07,eos,True,yes,dr,sys-43864,84.23
+host-5637,usa,z/os,ibm,2012-04-04,,False,no,dr,sys-21834,63.15
+host-5049,usa,ubuntu 22.04,microsoft,2014-11-08,,True,no,backup,sys-39890,73.18
+host-7836,canada,rhel 8,google,2021-02-06,eol,False,no,backup,sys-11092,54.07
+host-5219,brazil,ubuntu 22.04,redhat,2017-02-19,,True,no,dr,sys-49682,96.38
+host-7504,canada,z/os,google,2018-07-28,,False,no,testing,sys-71314,62.98
+host-1207,france,,canonical,2020-11-01,eol,True,no,dev,sys-74345,72.4
+host-5005,uk,centos 7,redhat,2015-06-07,planned,True,yes,backup,sys-99814,91.73
+host-5163,canada,suse linux,amazon,2017-09-09,planned,False,yes,dr,sys-23979,98.86
+host-4972,france,ubuntu 22.04,redhat,2023-02-25,eol,False,no,backup,sys-36807,56.36
+host-5452,france,centos 7,,2013-04-01,active,True,no,dr,sys-22913,76.63
+host-9810,,windows server 2019,amazon,2014-10-05,eol,True,no,testing,sys-95592,98.73
+host-1700,,suse linux,microsoft,2015-04-17,eos,False,yes,dev,sys-42152,99.47
+host-3555,france,,ibm,2020-04-05,planned,True,no,backup,sys-17161,77.53
+host-2964,,z/os,redhat,2019-11-26,planned,False,yes,production,sys-95762,82.82
+host-2658,canada,centos 7,canonical,2010-08-22,planned,False,no,backup,sys-42827,60.18
+host-9361,canada,aix 7.2,,2013-09-15,,False,yes,dr,sys-67676,81.47
+host-5395,india,aix 7.2,microsoft,2016-12-09,eos,True,no,dr,sys-49224,63.07
+host-4378,india,,,2021-12-29,eol,True,no,backup,sys-40753,89.74
+host-6934,,aix 7.2,redhat,2024-11-18,planned,True,yes,dr,sys-73300,55.75
+host-8670,uk,ubuntu 22.04,redhat,2017-02-22,eol,False,no,production,sys-61622,97.67
+host-2116,india,centos 7,amazon,2020-12-09,planned,False,yes,testing,sys-67552,89.2
+host-2787,,rhel 8,google,2013-06-21,planned,True,no,production,sys-43238,66.75
+host-2958,canada,aix 7.2,,2021-04-18,active,False,yes,testing,sys-30071,96.05
+host-1586,canada,windows server 2019,,2012-03-12,planned,False,no,testing,sys-49260,90.59
+host-9120,brazil,centos 7,amazon,2018-01-24,eol,False,no,dr,sys-48575,94.45
+host-1888,france,suse linux,google,2024-02-18,eol,True,yes,dr,sys-56040,51.52
+host-1114,germany,windows server 2019,,2024-05-08,eos,True,yes,dev,sys-20144,53.15
+host-4322,india,suse linux,microsoft,2011-02-09,eos,True,no,dev,sys-81679,51.94
+host-1397,canada,,google,2011-10-06,eos,False,yes,dev,sys-93201,71.99
+host-2733,brazil,z/os,google,2020-01-29,planned,True,no,dev,sys-46344,95.96
+host-8935,uk,rhel 8,redhat,2022-05-22,eos,False,no,production,sys-79300,50.94
+host-1086,,rhel 8,ibm,2015-05-16,active,True,no,dev,sys-25507,86.26
+host-5029,brazil,suse linux,ibm,2018-10-09,planned,False,yes,dr,sys-78948,54.17
+host-6125,india,windows server 2019,,2014-02-25,eol,True,yes,backup,sys-16903,50.1
+host-3113,germany,ubuntu 22.04,microsoft,2017-03-10,active,True,yes,production,sys-67541,59.51
+host-2952,india,,suse,2018-10-02,planned,False,yes,testing,sys-81038,58.4
+host-4072,canada,suse linux,,2017-12-22,planned,False,no,testing,sys-37042,75.44
+host-5181,brazil,z/os,amazon,2012-03-22,eol,True,no,dr,sys-68728,63.16
+host-8565,india,suse linux,amazon,2018-01-18,planned,True,yes,dr,sys-49084,88.59
+host-9677,japan,,canonical,2021-07-26,eos,False,yes,dev,sys-67556,61.81
+host-5934,canada,ubuntu 22.04,suse,2010-03-09,eos,False,no,production,sys-51957,91.63
+host-1963,canada,aix 7.2,suse,2012-02-19,active,False,yes,dr,sys-93808,50.91
+host-3888,germany,suse linux,,2022-09-21,eos,True,no,testing,sys-59022,68.17
+host-6425,france,,,2012-09-20,active,True,no,production,sys-68583,93.53
+host-1765,brazil,aix 7.2,,2014-03-08,eos,True,yes,production,sys-27714,66.79
+host-6499,usa,ubuntu 22.04,suse,2015-10-04,planned,True,no,dev,sys-55815,67.91
+host-8582,,,canonical,2018-04-27,eol,True,no,production,sys-77517,95.14
+host-1964,usa,suse linux,canonical,2015-08-14,,False,no,backup,sys-45106,80.73
+host-5769,usa,windows server 2019,suse,2015-05-16,planned,True,no,dr,sys-63287,57.19
+host-3647,japan,ubuntu 22.04,canonical,2013-08-15,,False,yes,dr,sys-17757,93.6
+host-7794,,windows server 2019,canonical,2023-07-17,eol,False,no,dev,sys-34298,93.14
+host-1361,japan,,,2012-11-30,planned,False,no,backup,sys-39861,73.28
+host-8099,france,aix 7.2,suse,2023-12-15,planned,True,yes,testing,sys-11071,71.98
+host-2188,canada,windows server 2019,canonical,2014-06-17,eol,False,yes,dr,sys-14011,72.87
+host-3773,usa,rhel 8,microsoft,2024-02-03,active,True,yes,backup,sys-95893,96.02
+host-8803,india,windows server 2019,suse,2012-09-19,active,False,yes,production,sys-66679,69.29
+host-5145,usa,rhel 8,ibm,2024-06-09,planned,True,yes,dev,sys-93123,93.99
+host-6393,germany,ubuntu 22.04,google,2014-09-09,active,True,yes,production,sys-55436,77.56
+host-9495,usa,aix 7.2,ibm,2024-11-11,active,True,yes,backup,sys-88122,53.88
+host-2822,japan,,,2013-08-03,active,True,no,dr,sys-79512,65.06
+host-4373,brazil,rhel 8,ibm,2014-09-29,eos,True,yes,production,sys-35559,51.12
+host-2218,france,aix 7.2,amazon,2021-02-09,eol,False,no,production,sys-43943,65.14
+host-8194,brazil,z/os,,2020-04-01,eos,False,yes,production,sys-54208,68.28
+host-5003,canada,aix 7.2,,2016-05-29,,False,yes,production,sys-56856,89.37
+host-7949,brazil,suse linux,suse,2014-02-21,active,False,no,dr,sys-83613,52.0
+host-3893,germany,rhel 8,amazon,2020-04-23,active,True,no,dev,sys-45500,59.33
+host-9360,canada,centos 7,,2011-03-29,,True,no,testing,sys-53168,63.39
+host-7922,brazil,ubuntu 22.04,,2017-08-24,active,True,yes,dr,sys-19313,86.27
+host-9675,usa,z/os,amazon,2011-09-09,planned,True,yes,dev,sys-63216,52.6
+host-9691,france,ubuntu 22.04,ibm,2014-06-17,planned,True,yes,testing,sys-14600,56.02
+host-9333,brazil,,ibm,2022-04-02,eos,False,yes,production,sys-35937,91.26
+host-6656,canada,centos 7,suse,2011-11-15,,False,yes,production,sys-95626,85.85
+host-5482,canada,suse linux,amazon,2015-07-04,active,True,yes,dr,sys-29896,92.89
+host-8447,usa,z/os,canonical,2021-11-02,,False,yes,production,sys-11819,97.73
+host-2039,brazil,windows server 2019,,2013-08-31,planned,True,no,backup,sys-53570,88.73
+host-7402,germany,rhel 8,suse,2021-07-16,eos,False,no,backup,sys-53825,91.82
+host-9862,brazil,centos 7,canonical,2015-04-27,planned,True,no,dev,sys-62196,90.44
+host-6198,japan,,ibm,2010-08-02,active,True,no,production,sys-29646,87.19
+host-8335,,centos 7,google,2014-04-18,eol,False,no,production,sys-48976,80.24
+host-3551,brazil,aix 7.2,canonical,2022-07-24,eos,False,yes,production,sys-69056,90.3
+host-4026,,z/os,,2015-07-25,planned,False,yes,production,sys-46868,54.18
+host-7910,india,windows server 2019,,2017-12-10,active,True,yes,dev,sys-21090,87.39
+host-3263,,centos 7,suse,2024-08-02,active,False,yes,production,sys-14844,67.7
+host-7853,india,windows server 2019,suse,2014-12-04,eos,False,no,testing,sys-45910,54.69
+host-9461,,suse linux,suse,2023-11-12,eol,True,yes,production,sys-15194,76.75
+host-7208,usa,ubuntu 22.04,,2016-05-17,eol,True,yes,production,sys-50889,81.8
+host-7553,japan,windows server 2019,google,2016-05-01,,True,yes,testing,sys-47371,77.85
+host-2043,india,suse linux,,2019-10-16,eos,True,yes,production,sys-80989,95.59
+host-8658,,z/os,canonical,2018-09-15,,True,no,dev,sys-24911,72.58
+host-3114,france,aix 7.2,ibm,2011-10-14,active,True,no,dr,sys-78205,81.0
+host-4129,canada,suse linux,redhat,2019-12-26,active,False,yes,backup,sys-54340,57.09
+host-6197,usa,,google,2019-06-10,,False,no,backup,sys-96516,71.13
+host-4099,usa,z/os,redhat,2016-10-11,,False,no,backup,sys-14012,65.06
+host-6090,,suse linux,google,2024-05-14,planned,False,no,backup,sys-29963,89.39
+host-6721,,z/os,suse,2013-09-20,planned,False,no,dr,sys-21157,86.52
+host-8471,brazil,centos 7,ibm,2023-06-04,,True,no,dev,sys-27429,75.9
+host-1737,france,windows server 2019,,2014-02-28,eos,True,no,backup,sys-48791,96.44
+host-9179,brazil,z/os,suse,2023-07-02,eos,True,no,dr,sys-91743,53.06
+host-3590,brazil,z/os,canonical,2015-10-20,planned,False,yes,backup,sys-62154,96.93
+host-7619,germany,aix 7.2,canonical,2015-12-05,,True,yes,testing,sys-32459,99.86
+host-8312,usa,suse linux,redhat,2022-09-24,planned,False,no,production,sys-64008,69.43
+host-9983,japan,,amazon,2019-04-21,eol,False,yes,production,sys-13998,67.27
+host-3857,uk,centos 7,,2012-04-15,eol,True,yes,backup,sys-88046,79.95
+host-7466,brazil,rhel 8,,2014-11-01,,False,no,backup,sys-70626,73.82
+host-7080,germany,z/os,ibm,2011-02-07,active,False,no,testing,sys-79651,85.5
+host-7811,japan,aix 7.2,suse,2023-01-13,planned,True,no,dr,sys-53607,57.01
+host-2003,germany,ubuntu 22.04,canonical,2012-12-31,eol,True,no,production,sys-59871,92.6
+host-7457,,,google,2023-07-16,eos,True,yes,production,sys-18557,99.47
+host-1053,brazil,centos 7,suse,2013-11-17,active,True,yes,production,sys-13623,76.04
+host-9754,,z/os,,2013-09-25,active,True,yes,production,sys-52270,96.13
+host-2320,,windows server 2019,,2013-06-13,active,False,no,dev,sys-94131,91.25
+host-2388,canada,z/os,microsoft,2016-08-23,eol,True,yes,dev,sys-25648,90.15
+host-4769,,suse linux,google,2018-05-01,active,True,yes,dev,sys-13251,53.91
+host-7698,france,rhel 8,suse,2012-12-19,active,False,no,backup,sys-50596,81.13
+host-6531,brazil,centos 7,ibm,2019-11-24,eos,True,no,dr,sys-94257,94.18
+host-1993,india,,google,2010-05-23,eol,True,no,dr,sys-56600,75.46
+host-6703,uk,suse linux,,2013-07-22,eos,False,yes,production,sys-10500,69.65
+host-2736,canada,rhel 8,amazon,2023-07-21,eos,True,no,dr,sys-11253,79.67
+host-9644,uk,centos 7,ibm,2021-07-14,eos,True,yes,production,sys-69038,81.29
+host-8530,germany,suse linux,amazon,2020-03-14,eos,False,no,dev,sys-94918,62.89
+host-7808,japan,ubuntu 22.04,amazon,2017-01-06,planned,True,no,testing,sys-96255,66.47
+host-7072,usa,,,2015-07-23,eos,False,yes,dev,sys-92078,78.66
+host-1435,,suse linux,amazon,2013-07-10,eos,False,yes,production,sys-37866,69.42
+host-9206,usa,rhel 8,google,2014-03-03,eol,True,no,testing,sys-88366,51.89
+host-8443,brazil,aix 7.2,amazon,2017-02-17,eos,True,yes,production,sys-26775,85.27
+host-1377,germany,windows server 2019,,2020-05-20,active,True,no,production,sys-53122,85.83
+host-2357,usa,centos 7,google,2023-09-29,planned,True,no,dev,sys-41184,61.7
+host-7173,germany,,amazon,2018-12-25,planned,True,yes,testing,sys-25872,98.94
+host-8131,,suse linux,amazon,2019-04-21,eos,True,yes,production,sys-22315,59.06
+host-3550,usa,windows server 2019,redhat,2020-06-12,eos,False,no,dev,sys-44910,51.4
+host-3542,india,suse linux,microsoft,2012-04-24,active,True,no,testing,sys-10165,82.88
+host-9795,france,windows server 2019,canonical,2015-04-11,,True,yes,dr,sys-41431,61.19
+host-8564,brazil,suse linux,google,2017-01-02,eos,False,no,production,sys-51405,54.28
+host-1835,,windows server 2019,canonical,2022-09-06,active,True,yes,dev,sys-62952,65.28
+host-2506,japan,centos 7,canonical,2012-05-31,active,False,no,backup,sys-21217,82.24
+host-3623,japan,centos 7,canonical,2021-01-07,,False,yes,testing,sys-69913,97.94
+host-5255,germany,aix 7.2,,2018-06-01,eos,True,no,dr,sys-19622,98.25
+host-7763,india,ubuntu 22.04,amazon,2015-06-24,active,False,yes,dev,sys-53192,86.49
+host-3276,brazil,ubuntu 22.04,amazon,2015-08-26,eol,True,yes,dev,sys-20281,75.68
+host-7329,brazil,centos 7,,2011-09-05,planned,False,yes,dev,sys-56979,56.38
+host-9424,canada,aix 7.2,microsoft,2019-02-23,active,True,no,testing,sys-43882,95.53
+host-9582,uk,aix 7.2,,2013-07-17,eol,False,no,dr,sys-77573,81.97
+host-2840,japan,windows server 2019,,2011-01-03,eol,False,yes,dr,sys-16326,87.1
+host-2292,france,rhel 8,,2016-08-22,active,False,no,backup,sys-64154,80.22
+host-9275,brazil,aix 7.2,google,2024-09-01,eol,False,yes,production,sys-43285,78.19
+host-2619,japan,,google,2010-05-24,eos,True,yes,backup,sys-67235,90.19
+host-7796,,rhel 8,amazon,2012-09-26,planned,True,no,testing,sys-85699,79.01
+host-5653,,ubuntu 22.04,ibm,2024-12-12,active,True,no,backup,sys-68863,56.25
+host-7252,france,,,2016-11-02,,True,yes,dev,sys-25582,91.34
+host-7427,,,amazon,2021-05-01,eos,False,yes,testing,sys-37256,66.13
+host-1970,,ubuntu 22.04,redhat,2015-06-26,eos,False,yes,testing,sys-56972,60.44
+host-4568,brazil,,ibm,2022-10-14,eos,True,no,testing,sys-91164,57.05
+host-5668,india,suse linux,ibm,2014-03-03,active,True,yes,backup,sys-69644,82.52
+host-7730,canada,,suse,2018-03-04,planned,False,yes,dr,sys-96597,65.89
+host-8712,france,,microsoft,2020-02-22,eos,False,no,production,sys-99379,54.82
+host-8694,uk,z/os,,2012-03-18,,False,yes,production,sys-93109,84.65
+host-3148,france,centos 7,ibm,2020-06-04,eos,True,yes,production,sys-29030,65.93
+host-1485,usa,,,2011-10-07,,True,yes,production,sys-62318,99.12
+host-1690,canada,centos 7,,2016-06-12,,True,yes,testing,sys-68188,97.27
+host-3369,germany,suse linux,google,2024-07-19,planned,True,no,production,sys-43893,68.84
+host-8950,brazil,rhel 8,ibm,2011-08-19,,False,yes,dev,sys-32658,99.68
+host-2525,,rhel 8,redhat,2023-05-10,planned,True,yes,testing,sys-79944,70.35
+host-1011,,aix 7.2,suse,2021-02-13,active,False,yes,production,sys-99825,56.03
+host-6328,usa,z/os,microsoft,2015-05-30,,False,yes,testing,sys-64082,65.11
+host-8077,usa,,suse,2022-11-02,planned,True,yes,dev,sys-78405,52.62
+host-4869,canada,,,2016-05-07,,False,no,dr,sys-94209,80.36
+host-3424,,rhel 8,amazon,2011-09-27,eol,True,no,dr,sys-88546,65.38
+host-1224,france,,amazon,2016-08-13,planned,False,no,backup,sys-13061,72.03
+host-8587,uk,centos 7,suse,2023-02-11,,False,no,dev,sys-74463,77.97
+host-1203,france,,redhat,2023-05-03,eol,True,no,dr,sys-26597,68.04
+host-8070,usa,aix 7.2,canonical,2018-08-17,active,True,yes,dev,sys-52967,80.69
+host-6681,germany,,microsoft,2017-09-27,planned,True,yes,dr,sys-91653,76.86
+host-6036,india,z/os,canonical,2024-02-03,planned,False,yes,testing,sys-96698,69.21
+host-7180,,windows server 2019,canonical,2023-10-21,eos,False,yes,dr,sys-75195,94.47
+host-4556,germany,rhel 8,,2018-01-22,,False,no,dr,sys-38602,83.47
+host-4216,usa,z/os,,2011-04-08,eol,False,yes,production,sys-29621,97.01
+host-8631,uk,windows server 2019,ibm,2022-09-21,eol,True,yes,backup,sys-49186,96.11
+host-3940,,suse linux,,2023-03-25,planned,False,no,production,sys-37943,95.57
+host-8263,,suse linux,amazon,2014-09-04,,False,no,dev,sys-18643,83.06
+host-9357,germany,centos 7,redhat,2012-12-24,eol,False,yes,testing,sys-31680,96.87
+host-5721,india,ubuntu 22.04,microsoft,2023-01-07,eol,False,no,testing,sys-58637,78.06
+host-2014,india,rhel 8,,2021-11-17,,True,yes,backup,sys-16240,97.82
+host-1642,usa,aix 7.2,google,2012-11-26,eos,True,yes,backup,sys-58041,55.41
+host-1183,usa,,microsoft,2020-03-16,active,True,yes,backup,sys-95244,78.01
+host-4568,brazil,,ibm,2022-10-14,eos,True,no,testing,sys-91164,57.05
+host-5005,uk,centos 7,redhat,2015-06-07,planned,True,yes,backup,sys-99814,91.73
+host-9415,india,windows server 2019,ibm,2018-02-05,eol,True,yes,dr,sys-37523,65.79
